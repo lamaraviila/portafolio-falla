@@ -255,7 +255,7 @@ li  img{
     color: #ffffff;
     background-color: #1e0149;
 }
-@media (max-width: 920px) {
+@media (min-width: 920px) {
     
 .section-principal .button-principal{
     position: relative;
@@ -266,7 +266,8 @@ li  img{
         left: 7rem;
     }
 }
-@media (max-width:379px) {
+@media (max-width:520px) {
+
     .section-principal{
         width: 166%;
     }
