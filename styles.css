@@ -9,9 +9,6 @@
 }
 body{
     font-family: 'Noto Sans NKo Unjoined';
-    
-
-
 }
 .section-principal{
     width: 100%;
@@ -248,7 +245,7 @@ li  img{
     ) ;
 }
 .box-ultimate-content-2{
-    color: #000000;
+    color: hsl(0, 0%, 0%);
 }
 .content_1 .boxto-h2{
     color: #000000;
@@ -258,6 +255,50 @@ li  img{
     color: #ffffff;
     background-color: #1e0149;
 }
-@media (max-width: 480px) {
+@media (max-width: 920px) {
     
+.section-principal .button-principal{
+    position: relative;
+    right: 3rem;
+    }
+    .navbar{
+        position: relative;
+        left: 7rem;
+    }
+}
+@media (max-width:379px) {
+    .section-principal{
+        width: 166%;
+    }
+    .box-principal{
+       width:  166%;
+    }
+    .content-box h2{
+        margin-left: 0px;
+    }
+    .content-box .content-button{
+        margin-left: 1rem;
+    }
+    .content-box2 img{
+        margin-left: 3rem;
+    }
+    .box-3{
+        width: 166%;
+    }
+    .content-box3 img {
+    
+        margin-left: 1rem;
+    }
+    ul {
+        width: 19rem;
+    }
+    .text2-pricipal{
+        width: 166%;
+    }
+    .content-box5 h2{
+       width: 20rem; 
+    }
+    .content-box5 p{
+        right: 13rem;
+    }
 }
