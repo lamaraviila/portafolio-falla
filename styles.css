@@ -266,7 +266,7 @@ li  img{
         left: 7rem;
     }
 }
-@media (max-width:520px) {
+@media (max-width:780px) {
 
     .section-principal{
         width: 166%;
