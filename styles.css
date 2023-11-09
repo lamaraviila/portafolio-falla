@@ -170,7 +170,7 @@
     }
     .content-box5{
          margin: auto;
-          width: 50%; 
+         width: 23rem; 
     }
     .content-box5 h2{
         padding:2rem;
@@ -180,7 +180,7 @@
     .content-box5 p{
         color: #ffffff;
         padding-top: 1rem;
-        width: 50rem;
+        
         position: relative;
         right: 9rem;
         font-size: 1.5rem;
@@ -345,7 +345,7 @@
             margin-left: 3px;
         }
     }
-    @media (max-width:420px) {
+    @media (max-width:550px) {
         .section-principal .navbar {
             width: 19rem;
             left: 0;
@@ -417,7 +417,7 @@
             width: 9rem;
         }
         .list-d {
-            margin-left: 4rem;
+            margin-left: 1rem;
             font-size: 12px;
        }
         .content-box5 {
@@ -428,6 +428,7 @@
             width: 17rem;
         }
         .content-box5 p {
-            right: 6rem;
-            width: 50rem;
+            font-size: 1rem;
+            right: 4rem;
+            width: 23rem;
         }
